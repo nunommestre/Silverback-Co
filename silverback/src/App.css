@@ -37,8 +37,8 @@
   color: white;
 }
 .gorilla-image {
-  width: 7vw;
-  height: 15vh;
+  width: 125px;
+  height: 125px;
 }
 .gorilla-image:hover {
   filter: grayscale(0%) hue-rotate(180deg);
@@ -59,4 +59,84 @@
   .gorilla-image {
     display: none;
   }
+}
+.about-us {
+  padding-top: 100vh;
+  width: 75%;
+  margin: 0 auto;
+}
+.closer {
+  width: 75%;
+  margin: 0 auto;
+}
+.gorilla-sign{
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.gorilla-image-above-silver{
+  width: 125px;
+  height: 125px;
+}
+.image-in-list {
+  width: 75vw;
+  height: 50vh;
+}
+
+.image-container {
+  position: relative;
+  width: 800px;
+  height: 600px;
+}
+
+.original-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: opacity 0.3s ease;
+}
+
+.hover-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  transition: width 0.3s ease;
+  overflow: hidden;
+  opacity: 0;
+}
+
+.image-container:hover .original-image {
+  opacity: 0;
+}
+
+.image-container:hover .hover-image {
+  opacity: 1;
+}
+
+.image-container:hover .image-overlay {
+  width: 25%;
+  opacity: 1;
 }

@@ -39,9 +39,68 @@ function App() {
 
 
       <div className="background-image"></div>
+      <div className="gorilla-sign">
+    <img
+      src="https://static.vecteezy.com/system/resources/previews/000/296/674/original/cute-gorilla-on-white-background-vector.jpg"
+      alt="Silverback Gorilla"
+      className="gorilla-image-above-silver"
+    />
+  </div>
       <h1 className="centered">Silverback Co.</h1>
       <p className='who-we'>Who We Are?</p>
       <p className='who-we-arrow'>v</p>
+      <div className="d-flex justify-content-center flex-wrap about-us text-center">
+  <p className="pb-3">
+    Welcome to Silverback Co, a carpentry, tile, framing, and cleaning company founded by Claud Dos Santos in 2019.
+  </p>
+  <p className="">
+    When we realized that this was a common problem for many renters, seeing that crucial data was hidden behind paywalls or not easily accessible, we knew we could start something to fix it.
+  </p>
+  <p className="">
+    We believe that access to a community-driven data set is key to making informed renting and listing decisions. By building and sharing this data set with everyone, we can bring clarity to the renting process and ease the headaches around negotiating rent.
+  </p>
+  <p className="">
+    If you share our frustration and believe in our mission of rent transparency, we invite you to contribute and help spread our message to the renting world.
+  </p>
+</div>
+<div className="d-flex justify-content-center flex-wrap text-center">
+<img
+      src="https://wallpapercave.com/wp/wp3604678.jpg"
+      alt="Silverback Gorilla"
+      className="image-in-list"
+    />
+</div>
+<div className="d-flex justify-content-center flex-wrap text-center mt-2 wt-50">
+<img
+      src="https://wallpapercave.com/wp/wp3604678.jpg"
+      alt="Silverback Gorilla"
+      className="image-in-list"
+    />
+</div>
+<div className="d-flex justify-content-center flex-wrap text-center mt-2 wt-50">
+<div class="image-container">
+  <img src="https://wallpapercave.com/wp/wp3604678.jpg" alt="Original Image" class="original-image" />
+  <img src="https://wallpapercave.com/wp/wp7113919.jpg" alt="Hover Image" class="hover-image" />
+  <div class="image-overlay">
+    <p>This is the overlay text</p>
+  </div>
+</div>
+
+</div>
+<div className="d-flex justify-content-center flex-wrap closer text-center">
+  <p className="pb-3">
+    Welcome to Silverback Co, a carpentry, tile, framing, and cleaning company founded by Claud Dos Santos in 2019.
+  </p>
+  <p className="">
+    When we realized that this was a common problem for many renters, seeing that crucial data was hidden behind paywalls or not easily accessible, we knew we could start something to fix it.
+  </p>
+  <p className="">
+    We believe that access to a community-driven data set is key to making informed renting and listing decisions. By building and sharing this data set with everyone, we can bring clarity to the renting process and ease the headaches around negotiating rent.
+  </p>
+  <p className="">
+    If you share our frustration and believe in our mission of rent transparency, we invite you to contribute and help spread our message to the renting world.
+  </p>
+</div>
     </div>
   );
 }
