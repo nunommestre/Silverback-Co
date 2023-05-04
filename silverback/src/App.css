@@ -1,0 +1,62 @@
+.navbar {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+}
+
+.background-image {
+  background-image: url('https://wallpapercave.com/wp/wp3784210.jpg');
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  z-index: 0;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.who-we {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.who-we-arrow {
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.gorilla-image {
+  width: 7vw;
+  height: 15vh;
+}
+.gorilla-image:hover {
+  filter: grayscale(0%) hue-rotate(180deg);
+}
+.gorilla-image-wrapper:hover::after {
+  content: "Silverback Cleaning";
+  display: block;
+  position: absolute;
+  bottom: -1.5em;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+}
+@media only screen and (max-width: 768px) {
+  .gorilla-image {
+    display: none;
+  }
+}
