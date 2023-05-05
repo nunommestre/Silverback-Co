@@ -1,0 +1,187 @@
+.navbar {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+  }
+  
+  .background-image {
+    background-image: url('https://wallpapercave.com/wp/wp3784210.jpg');
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: 0;
+  }
+  
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  .who-we {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  .who-we-arrow {
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  .gorilla-image {
+    width: 125px;
+    height: 125px;
+  }
+  .gorilla-image:hover {
+    filter: grayscale(0%) hue-rotate(180deg);
+  }
+  .gorilla-image-cleaning-wrapper:hover::after {
+    content: "Silverback Co.";
+    display: block;
+    position: absolute;
+    bottom: -1.5em;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+  }
+  @media only screen and (max-width: 768px) {
+    .gorilla-image {
+      display: none;
+    }
+  }
+  .about-us {
+    padding-top: 100vh;
+    width: 75%;
+    margin: 0 auto;
+  }
+  .closer {
+    width: 75%;
+    margin: 0 auto;
+  }
+  .gorilla-sign{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  .gorilla-image-above-silver{
+    width: 125px;
+    height: 125px;
+  }
+  .image-in-list {
+    width: 75vw;
+    height: 50vh;
+  }
+  
+  .image-container {
+    position: relative;
+    width: 800px;
+    height: 600px;
+  }
+  
+  .original-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.3s ease;
+  }
+  
+  .hover-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    transition: width 0.3s ease;
+    overflow: hidden;
+    opacity: 0;
+  }
+  
+  .image-container:hover .original-image {
+    opacity: 0;
+  }
+  
+  .image-container:hover .hover-image {
+    opacity: 1;
+  }
+  
+  .image-container:hover .image-overlay {
+    width: 25%;
+    opacity: 1;
+  }
+  .book-now{
+    background-color: #8c6450;
+    color: white;
+    font-style: italic;
+    font-size: 30pt;
+  }
+  .footing-book {
+    width: 85%;
+    margin: 0 auto;
+  }
+  .contact-us {
+    color: white;
+    font-weight: bold;
+    font-size: 30pt;
+  }
+  .contact-us-form{
+    background-color: #002942;
+  }
+  .gorilla-image-footer {
+    width:125px;
+    height: 100px;
+  }
+  .footer {
+    background-image: url('https://images.freecreatives.com/wp-content/uploads/2016/03/High-Res-5-Free-Brick-Tiles-Textures.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+  }
+  .follow-us-text{
+    color: white;
+    font-weight: bold;
+    font-size: 24pt;
+  }
+  .gorilla-image-above-cleanin-silver-wrapper:hover::after {
+    content: "Silverback Co.";
+    display: block;
+    position: absolute;
+    bottom: -1.5em;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+  }
