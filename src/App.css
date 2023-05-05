@@ -140,3 +140,21 @@
   width: 25%;
   opacity: 1;
 }
+.book-now{
+  background-color: #8c6450;
+  color: white;
+  font-style: italic;
+  font-size: 30pt;
+}
+.footing-book {
+  width: 85%;
+  margin: 0 auto;
+}
+.contact-us {
+  color: white;
+  font-weight: bold;
+  font-size: 30pt;
+}
+.contact-us-form{
+  background-color: #002942;
+}

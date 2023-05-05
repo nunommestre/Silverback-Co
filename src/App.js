@@ -101,6 +101,38 @@ function App() {
     If you share our frustration and believe in our mission of rent transparency, we invite you to contribute and help spread our message to the renting world.
   </p>
 </div>
+<div className="d-flex justify-content-center flex-wrap footing-book text-center book-now">
+  <p>
+   Book Today!
+  </p>
+</div>
+<div className="d-flex justify-content-center flex-wrap footing-book text-center book-now">
+  <div className="col-md-6 d-flex justify-content-center align-items-center">
+    <h3 className='contact-us'>Contact Us</h3>
+  </div>
+  <div className="col-md-6 d-flex justify-content-center align-items-center contact-us-form">
+  <form className='text-center'>
+      <div className="mb-3">
+        <label htmlFor="name" className="form-label">Name</label>
+        <input type="text" className="form-control" id="name" />
+      </div>
+      <div className="mb-3">
+        <label htmlFor="email" className="form-label">Email address</label>
+        <input type="email" className="form-control" id="email" aria-describedby="emailHelp" />
+      </div>
+      <button type="submit" className="btn btn-primary">Submit</button>
+    </form>
+  </div>
+</div>
+<div className="d-flex justify-content-center flex-wrap footing-book text-center footer">
+ 
+</div>
+<div className="d-flex justify-content-center flex-wrap closer text-center">
+  <p className="pb-3">
+    @ 2023 SILVERBACK CO.
+  </p>
+</div>
+
     </div>
   );
 }
